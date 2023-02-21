@@ -19,7 +19,7 @@ jobs:
 
       - name: Building documentation
         run: |
-          pip install sphinx Pallets-Sphinx-Themes
+          pip install sphinx sphinx-rtd-theme
           sphinx-apidoc -o docs scipackage/
       
       - name: Build docs
